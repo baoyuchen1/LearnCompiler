@@ -1,0 +1,15 @@
+struct check{
+int a;
+int b;
+}
+int f(int a){
+return 100;
+}
+int main(){
+int a;
+a=100;
+check big;
+big=100;
+big.a=a+f(100);
+return 100;
+}
